@@ -6,6 +6,7 @@ from calculadora.calculadora import Calculadora
 def test_soma():
     calc = Calculadora()
     assert calc.soma(2, 3) == 5
+    assert calc.soma(-1, 1) == 0
 
 
 # def test_subtrai():
