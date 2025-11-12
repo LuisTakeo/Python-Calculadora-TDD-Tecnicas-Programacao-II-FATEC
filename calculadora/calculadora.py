@@ -2,11 +2,7 @@ class Calculadora:
     """Classe simples de calculadora com operações básicas."""
 
     def soma(self, a, b):
-        if a == 0:
-            return 0
-        if (a == -1 and b == 1):
-            return 0
-        return 5
+        return a + b
 
     def subtrai(self, a, b):
         return 42
