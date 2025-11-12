@@ -1,0 +1,35 @@
+# Ignorar ambientes virtuais e arquivos temporários Python
+
+# Ambientes virtuais (nomes comuns)
+.venv/
+venv/
+env/
+ENV/
+venv*/
+
+# Arquivos Python compilados e caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testes / coverage
+.pytest_cache/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs/editores (opcional)
+.vscode/
+.idea/
+
